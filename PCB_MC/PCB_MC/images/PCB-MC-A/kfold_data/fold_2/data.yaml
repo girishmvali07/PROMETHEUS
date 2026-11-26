@@ -1,0 +1,6 @@
+
+    path: /content/drive/MyDrive/PCB_MC/Data/full_dataset/kfold_data/fold_2
+    train: train/images
+    val: valid/images
+    nc: 31
+    names: ['Button', 'Capacitor', 'Clock', 'Connector', 'Diode', 'Display', 'EM', 'Electrolytic Capacitor', 'Ferrite Bead', 'Fuse', 'Heatsink', 'IC', 'Inductor', 'Jumper', 'Led', 'Missing Capacitor', 'Missing Component', 'Missing Diode', 'Missing Ferrite bead', 'Missing IC', 'Missing Inductor', 'Missing Led', 'Missing Resistor', 'Pads', 'Pins', 'Potentiometer', 'Resistor', 'Switch', 'Test Point', 'Transistor', 'Zener Diode']

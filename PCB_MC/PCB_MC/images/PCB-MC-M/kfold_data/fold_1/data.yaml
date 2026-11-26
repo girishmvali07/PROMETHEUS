@@ -1,0 +1,6 @@
+
+    path: /content/drive/MyDrive/PCB_MC/Data/missing_only/kfold_data/fold_1
+    train: train/images
+    val: valid/images
+    nc: 8
+    names: ['Missing Capacitor', 'Missing Component', 'Missing Diode', 'Missing Ferrite bead', 'Missing IC', 'Missing Inductor', 'Missing Led', 'Missing Resistor']

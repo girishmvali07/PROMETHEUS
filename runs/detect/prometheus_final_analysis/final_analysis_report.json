@@ -1,0 +1,27 @@
+{
+    "shift_analysis": {
+        "calibration_groups": 27,
+        "testing_groups": 12,
+        "group_overlap": 0,
+        "calibration_confidence_mean": 0.11338494699418986,
+        "testing_confidence_mean": 0.1193832037128205,
+        "confidence_mean_difference": 0.0059982567186306485,
+        "confidence_ks_statistic": 0.11294800831810493,
+        "confidence_ks_p_value": 8.280771994231434e-69,
+        "calibration_detection_correctness": 0.09615979647265101,
+        "testing_detection_correctness": 0.11115384615384616,
+        "correctness_difference": 0.014994049681195151
+    },
+    "false_detection_analysis": {
+        "total_test_detections": 7800,
+        "incorrect_detections": 6933,
+        "correct_detections": 867,
+        "incorrect_detection_rate": 0.8888461538461538,
+        "correct_detection_rate": 0.11115384615384616
+    },
+    "interpretation": {
+        "confidence_shift": "Statistical distribution comparison; not proof of image-domain shift.",
+        "incorrect_detections": "Based on the existing correct flag and its matching criteria.",
+        "limitations": "Analysis covers recorded detections only; missed objects are not measured."
+    }
+}

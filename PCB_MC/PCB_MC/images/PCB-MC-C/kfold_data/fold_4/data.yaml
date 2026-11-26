@@ -1,0 +1,6 @@
+
+    path: /content/drive/MyDrive/PCB_MC/Data/components_only/kfold_data/fold_4
+    train: train/images
+    val: valid/images
+    nc: 23
+    names: ['Button', 'Capacitor', 'Clock', 'Connector', 'Diode', 'Display', 'EM', 'Electrolytic Capacitor', 'Ferrite Bead', 'Fuse', 'Heatsink', 'IC', 'Inductor', 'Jumper', 'Led', 'Pads', 'Pins', 'Potentiometer', 'Resistor', 'Switch', 'Test Point', 'Transistor', 'Zener Diode']

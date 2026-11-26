@@ -1,0 +1,29 @@
+{
+    "calibration_groups": 27,
+    "testing_groups": 12,
+    "calibration_predictions": 29087,
+    "testing_predictions": 7800,
+    "group_overlap": 0,
+    "source_csv_rows": 36887,
+    "metrics": [
+        {
+            "method": "Raw YOLO",
+            "brier_score": 0.08178099022432013,
+            "log_loss": 0.2834526743149945,
+            "ECE": 0.01281516576410257
+        },
+        {
+            "method": "Platt Scaling",
+            "brier_score": 0.08387128101993759,
+            "log_loss": 0.29314507405096946,
+            "ECE": 0.022065645604629612
+        },
+        {
+            "method": "Isotonic Regression",
+            "brier_score": 0.08238845434199289,
+            "log_loss": 0.2863851838931838,
+            "ECE": 0.017970575540959013
+        }
+    ],
+    "note": "Metrics are conditional on YOLO detections. They do not measure missed-object recall or guarantee production reliability."
+}
